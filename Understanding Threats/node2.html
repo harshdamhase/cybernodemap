@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+
+
+       <nav>
+        <h1>Common Cyber Attacks</h1>
+       </nav>
+
+        <p>
+            Cyber attackers employ a variety of techniques to compromise computer systems, networks, and data. Recognizing these common attacks is crucial for implementing effective security measures and safeguarding against potential threats.
+        </p>
+    
+        <h2>1. Phishing Attacks</h2>
+        <p>
+            <strong>Phishing attacks</strong> involve the use of deceptive emails, messages, or websites to trick individuals into divulging sensitive information such as usernames, passwords, or financial details.
+        </p>
+    
+        <h2>2. Malware Infections</h2>
+        <p>
+            <strong>Malware</strong>, a broad category of malicious software, includes viruses, worms, trojans, and ransomware. Malware can infect systems and compromise data integrity, confidentiality, and availability.
+        </p>
+    
+        <h2>3. Ransomware</h2>
+        <p>
+            <strong>Ransomware attacks</strong> encrypt a user's files or entire systems, demanding payment (usually in cryptocurrency) for the release of the data. These attacks can cause significant disruption and financial losses.
+        </p>
+    
+        <h2>4. Denial of Service (DoS) Attacks</h2>
+        <p>
+            <strong>DoS attacks</strong> aim to overwhelm a system, network, or service, making it temporarily or indefinitely unavailable to users. Distributed Denial of Service (DDoS) attacks involve multiple systems to amplify the impact.
+        </p>
+    
+        <h2>5. Man-in-the-Middle (MitM) Attacks</h2>
+        <p>
+            In <strong>Man-in-the-Middle attacks</strong>, an unauthorized third party intercepts and potentially alters communication between two parties. This can lead to data interception, eavesdropping, or injection of malicious content.
+        </p>
+    
+        <h2>6. SQL Injection</h2>
+        <p>
+            <strong>SQL injection</strong> involves exploiting vulnerabilities in a web application's database by injecting malicious SQL code. Attackers can manipulate or extract sensitive data from the database.
+        </p>
+    
+        <h2>7. Zero-Day Exploits</h2>
+        <p>
+            <strong>Zero-day exploits</strong> target undisclosed vulnerabilities in software before developers release patches or updates. These attacks can be challenging to defend against, as there is no pre-existing fix.
+        </p>
+    
+        <h2>Protective Measures</h2>
+        <ul>
+            <li><strong>Regular Security Training:</strong> Educating users on recognizing and avoiding common attack vectors.</li>
+            <li><strong>Firewalls and Antivirus Software:</strong> Implementing security tools to detect and prevent malicious activities.</li>
+            <li><strong>Regular System Updates:</strong> Keeping software, operating systems, and applications up-to-date to patch known vulnerabilities.</li>
+            <li><strong>Network Monitoring:</strong> Monitoring network traffic for unusual patterns and potential security incidents.</li>
+        </ul>
+    
+        <p>
+            Staying vigilant and implementing robust cybersecurity practices are essential in mitigating the risks posed by common cyber attacks.
+        </p>
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node3.html';
+        }
+    </script>
+
+</body>
+
+</html>

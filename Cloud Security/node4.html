@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>Shared Responsibility Model</h1>
+        </nav>
+
+        <p>
+            The Shared Responsibility Model is a key concept in cloud computing that defines the division of security responsibilities between cloud service providers (CSPs) and cloud users. This model helps organizations understand their roles and responsibilities in ensuring the security of data, applications, and infrastructure in the cloud.
+        </p>
+    
+        <h2>Key Principles of the Shared Responsibility Model</h2>
+        <ul>
+            <li><strong>1. Provider Responsibility:</strong> Cloud service providers are responsible for the security of the cloud infrastructure, including the physical data centers, networking, and hypervisors.</li>
+            <li><strong>2. User Responsibility:</strong> Cloud users are responsible for securing their data, applications, and configurations within the cloud environment.</li>
+            <li><strong>3. Shared Responsibility:</strong> Security responsibilities are shared between the provider and the user, and the specific division depends on the type of service model (IaaS, PaaS, SaaS) being utilized.</li>
+        </ul>
+    
+        <h2>Responsibilities in Different Service Models</h2>
+        <p>
+            The division of responsibilities varies across different cloud service models:
+        </p>
+    
+        <h3>1. Infrastructure as a Service (IaaS)</h3>
+        <ul>
+            <li><strong>Provider Responsibilities:</strong> Security of the physical data center, networking, virtualization, and the hypervisor.</li>
+            <li><strong>User Responsibilities:</strong> Securing the operating system, applications, data, and network configurations.</li>
+            <li><strong>Examples:</strong> Amazon EC2, Microsoft Azure Virtual Machines.</li>
+        </ul>
+    
+        <h3>2. Platform as a Service (PaaS)</h3>
+        <ul>
+            <li><strong>Provider Responsibilities:</strong> Security of the underlying platform, runtime, and middleware.</li>
+            <li><strong>User Responsibilities:</strong> Securing the application, data, and configurations.</li>
+            <li><strong>Examples:</strong> Heroku, Google App Engine.</li>
+        </ul>
+    
+        <h3>3. Software as a Service (SaaS)</h3>
+        <ul>
+            <li><strong>Provider Responsibilities:</strong> Security of the entire application, infrastructure, and data.</li>
+            <li><strong>User Responsibilities:</strong> Configuring user access, managing data, and ensuring compliance within the application.</li>
+            <li><strong>Examples:</strong> Salesforce, Microsoft 365.</li>
+        </ul>
+    
+        <h2>Benefits of the Shared Responsibility Model</h2>
+        <ul>
+            <li>Clarity of Responsibilities: Clearly defines the security responsibilities of both the cloud provider and the user.</li>
+            <li>Increased Security: Encourages collaboration and ensures that security measures are implemented at both the infrastructure and application levels.</li>
+            <li>Flexibility: Allows organizations to tailor security measures based on their specific needs and requirements.</li>
+        </ul>
+    
+        <p>
+            Understanding and adhering to the Shared Responsibility Model is crucial for building a secure and resilient cloud environment. Organizations should regularly review and update security measures to adapt to changing threats and technologies.
+        </p>
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node5.html';
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>OWASP Top Ten Web Application Security Risks</h1>
+        </nav>
+
+        <p>
+            The Open Web Application Security Project (OWASP) is a nonprofit organization focused on improving the security of software. The OWASP Top Ten is a regularly updated list that highlights the most critical web application security risks. Understanding and addressing these risks is essential for building secure web applications.
+        </p>
+    
+        <h2>1. Injection</h2>
+        <p>
+            Injection vulnerabilities occur when untrusted data is sent to an interpreter as part of a command or query. This can lead to unintended execution of malicious commands, such as SQL injection, NoSQL injection, or OS command injection.
+        </p>
+    
+        <h2>2. Broken Authentication</h2>
+        <p>
+            Broken authentication vulnerabilities involve issues with the implementation of user authentication mechanisms, leading to unauthorized access. Common issues include weak password policies, session management flaws, and inadequate account recovery mechanisms.
+        </p>
+    
+        <h2>3. Sensitive Data Exposure</h2>
+        <p>
+            Sensitive data exposure occurs when applications fail to adequately protect sensitive information, such as passwords or credit card details. This risk is often associated with improper encryption, weak key management, or insufficient data protection measures.
+        </p>
+    
+        <h2>4. XML External Entities (XXE)</h2>
+        <p>
+            XXE vulnerabilities arise when an application processes XML input that contains external entity references. Attackers can exploit this to disclose internal files, execute remote code, or launch denial-of-service attacks.
+        </p>
+    
+        <h2>5. Broken Access Control</h2>
+        <p>
+            Broken access control issues involve inadequate restrictions on what authenticated users can do. This can result in unauthorized access to sensitive functionality or data, leading to data breaches or unauthorized actions.
+        </p>
+    
+        <h2>6. Security Misconfigurations</h2>
+        <p>
+            Security misconfigurations occur when an application, server, or database is improperly configured, leaving security holes. Examples include default credentials, overly permissive permissions, or exposed sensitive information.
+        </p>
+    
+        <h2>7. Cross-Site Scripting (XSS)</h2>
+        <p>
+            XSS vulnerabilities allow attackers to inject malicious scripts into web pages viewed by other users. This can lead to the theft of session cookies, defacement of websites, or other malicious activities.
+        </p>
+    
+        <h2>8. Insecure Deserialization</h2>
+        <p>
+            Insecure deserialization vulnerabilities arise when applications deserialize untrusted data without proper validation. This can lead to remote code execution, injection attacks, or other security compromises.
+        </p>
+    
+        <h2>9. Using Components with Known Vulnerabilities</h2>
+        <p>
+            This risk involves using third-party components or libraries with known vulnerabilities. Attackers can exploit these vulnerabilities to compromise the security of the entire application.
+        </p>
+    
+        <h2>10. Insufficient Logging and Monitoring</h2>
+        <p>
+            Inadequate logging and monitoring make it difficult to detect and respond to security incidents. Effective logging and monitoring are crucial for identifying and mitigating security threats in a timely manner.
+        </p>
+    
+        <p>
+            Addressing the OWASP Top Ten risks is crucial for building secure web applications. Developers, security professionals, and organizations should adopt best practices and use security tools to mitigate these risks and enhance overall application security.
+        </p>
+    
+    
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node4.html';
+        }
+    </script>
+
+</body>
+
+</html>

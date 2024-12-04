@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>Incident Response</h1>
+        </nav>
+
+        <p>
+            Incident response is a systematic and organized approach to addressing and managing the aftermath of a cybersecurity incident. The primary goal is to minimize damage, reduce recovery time, and mitigate the impact on the organization's operations and assets.
+        </p>
+    
+        <h2>Key Components of Incident Response</h2>
+        <ul>
+            <li><strong>Preparation:</strong> Establishing an incident response plan, defining roles and responsibilities, and ensuring that necessary resources and tools are available for effective incident handling.</li>
+            <li><strong>Identification:</strong> Detecting and recognizing signs of a security incident. This may involve the use of intrusion detection systems, security information and event management (SIEM) tools, or user reports.</li>
+            <li><strong>Containment:</strong> Taking immediate actions to prevent the incident from spreading further and causing additional damage. This may involve isolating affected systems or disabling compromised accounts.</li>
+            <li><strong>Eradication:</strong> Identifying and removing the root cause of the incident to prevent it from recurring. This may include patching vulnerabilities, removing malware, or implementing additional security controls.</li>
+            <li><strong>Recovery:</strong> Restoring affected systems and services to normal operation. This may involve data restoration, system reconfiguration, and other recovery activities.</li>
+            <li><strong>Lessons Learned:</strong> Conducting a post-incident analysis to identify areas for improvement in the incident response process. This includes reviewing what worked well and what could be enhanced for future incidents.</li>
+        </ul>
+    
+        <h2>Incident Response Team</h2>
+        <p>
+            An incident response team is typically composed of individuals with specific roles and responsibilities, such as:
+        </p>
+        <ul>
+            <li><strong>Incident Coordinator:</strong> Oversees the overall incident response process and ensures coordination among team members.</li>
+            <li><strong>Security Analysts:</strong> Analyze and investigate security incidents, identify the scope of the breach, and recommend appropriate responses.</li>
+            <li><strong>Forensic Experts:</strong> Conduct digital forensics to gather evidence and understand the extent of the incident.</li>
+            <li><strong>Communications Specialist:</strong> Handles communication both internally and externally, keeping stakeholders informed about the incident and response efforts.</li>
+        </ul>
+    
+        <h2>Incident Response Tools</h2>
+        <p>
+            Various tools and technologies support incident response efforts, including:
+        </p>
+        <ul>
+            <li><strong>SIEM (Security Information and Event Management):</strong> Aggregates and analyzes log data from various sources to identify and respond to security incidents.</li>
+            <li><strong>Endpoint Detection and Response (EDR):</strong> Monitors and responds to activities on endpoint devices to detect and mitigate security threats.</li>
+            <li><strong>Incident Response Platforms:</strong> Centralized platforms that help orchestrate and automate incident response workflows.</li>
+            <li><strong>Forensic Tools:</strong> Software and tools used in digital forensics investigations to analyze and collect evidence.</li>
+        </ul>
+    
+        <p>
+            Having a well-defined incident response plan, a trained incident response team, and the right tools in place are essential components of a resilient cybersecurity strategy.
+        </p>
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node4.html';
+        }
+    </script>
+
+</body>
+
+</html>

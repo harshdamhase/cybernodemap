@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+       <nav> <h1>Threat Overview</h1> </nav>
+
+        <p>
+            In the realm of cybersecurity, understanding the various threats is crucial for implementing effective defense strategies. Threats can take many forms and target different aspects of computer systems and networks, posing risks to data integrity, confidentiality, and availability.
+        </p>
+    
+        <h2>Common Cyber Threats</h2>
+        <ul>
+            <li><strong>Malware:</strong> Malicious software designed to harm or exploit systems and data. This includes viruses, worms, and trojans.</li>
+            <li><strong>Phishing:</strong> Deceptive attempts to trick individuals into revealing sensitive information, often through fake emails or websites.</li>
+            <li><strong>Ransomware:</strong> Malicious software that encrypts data, demanding a ransom for its release.</li>
+            <li><strong>Denial of Service (DoS) Attacks:</strong> Overloading systems to disrupt their normal functioning, making them temporarily or indefinitely unavailable.</li>
+            <li><strong>Man-in-the-Middle (MitM) Attacks:</strong> Interception of communication between two parties, allowing the attacker to eavesdrop or manipulate the data.</li>
+            <li><strong>SQL Injection:</strong> Exploiting vulnerabilities in a web application's database by injecting malicious SQL code.</li>
+            <li><strong>Zero-Day Exploits:</strong> Attacks that target software vulnerabilities before developers release patches or updates.</li>
+        </ul>
+    
+        <h2>Advanced Persistent Threats (APTs)</h2>
+        <p>
+            APTs are sophisticated and prolonged cyber attacks typically carried out by well-funded and organized threat actors. These attacks aim to compromise specific targets for espionage or other malicious purposes.
+        </p>
+    
+        <h2>Insider Threats</h2>
+        <p>
+            Insider threats involve individuals within an organization who misuse their access and privileges to intentionally or unintentionally harm the organization's security. This can include employees, contractors, or business partners.
+        </p>
+    
+        <h2>Protective Measures</h2>
+        <ul>
+            <li><strong>Firewalls:</strong> Network security devices that monitor and control incoming and outgoing traffic.</li>
+            <li><strong>Antivirus Software:</strong> Programs designed to detect, prevent, and remove malicious software.</li>
+            <li><strong>Encryption:</strong> The process of converting data into a secure code to prevent unauthorized access.</li>
+            <li><strong>Regular Software Updates:</strong> Keeping software and systems up-to-date to patch known vulnerabilities.</li>
+            <li><strong>User Education:</strong> Training individuals to recognize and avoid common threats like phishing.</li>
+        </ul>
+    
+        <p>
+            Understanding the threat landscape and implementing proactive security measures are essential components of a robust cybersecurity strategy.
+        </p>
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node2.html';
+        }
+    </script>
+
+</body>
+
+</html>

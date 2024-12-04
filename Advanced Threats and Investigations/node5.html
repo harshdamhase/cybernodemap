@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>Emerging Threats: IoT and AI-Based Attacks</h1>
+        </nav>
+
+        <p>
+            As technology evolves, new and sophisticated threats emerge, posing challenges to cybersecurity professionals. Two notable areas of concern are Internet of Things (IoT) and AI-based attacks. These emerging threats introduce unique vulnerabilities that require specialized approaches to mitigation and defense.
+        </p>
+    
+        <h2>IoT Security Challenges</h2>
+        <p>
+            The Internet of Things (IoT) refers to the interconnected network of devices and objects that communicate and share data. While IoT brings innovation and convenience, it also introduces security challenges:
+        </p>
+        <ul>
+            <li><strong>1. Device Vulnerabilities:</strong> Many IoT devices have limited security features, making them susceptible to exploitation.</li>
+            <li><strong>2. Inadequate Authentication:</strong> Weak or default authentication mechanisms on IoT devices can be exploited for unauthorized access.</li>
+            <li><strong>3. Lack of Encryption:</strong> Inadequate data encryption may expose sensitive information transmitted between IoT devices and networks.</li>
+            <li><strong>4. Network Security:</strong> Insecure IoT networks can be targeted for unauthorized access or disruption.</li>
+            <li><strong>5. Proliferation of Devices:</strong> The sheer number and diversity of IoT devices increase the attack surface and complicate security management.</li>
+        </ul>
+    
+        <h2>AI-Based Threats</h2>
+        <p>
+            Artificial Intelligence (AI) is being increasingly utilized in cybersecurity, but it also introduces new threat vectors:
+        </p>
+        <ul>
+            <li><strong>1. Adversarial Attacks:</strong> Attackers can manipulate AI systems by inputting specially crafted data to deceive or confuse the algorithms.</li>
+            <li><strong>2. Model Poisoning:</strong> Injecting malicious data during the training phase of AI models can compromise the integrity of the entire system.</li>
+            <li><strong>3. Deepfakes:</strong> AI-generated deepfake content, such as manipulated videos or audio, can be used for disinformation and social engineering attacks.</li>
+            <li><strong>4. AI-Enhanced Malware:</strong> Attackers leverage AI to create more sophisticated and evasive malware that can adapt to changing security measures.</li>
+            <li><strong>5. Bias and Unintended Consequences:</strong> Biases in AI algorithms or unintended consequences of AI decision-making can lead to security and ethical concerns.</li>
+        </ul>
+    
+        <h2>Mitigation Strategies</h2>
+        <p>
+            Effectively addressing emerging threats requires a combination of proactive measures and continuous adaptation:
+        </p>
+        <ul>
+            <li><strong>1. IoT Security Best Practices:</strong> Implementing secure coding practices, strong authentication, and regular software updates for IoT devices.</li>
+            <li><strong>2. Network Segmentation:</strong> Segregating IoT devices from critical networks to limit the potential impact of a compromise.</li>
+            <li><strong>3. AI Model Validation:</strong> Thoroughly validating and testing AI models to identify and address vulnerabilities and potential adversarial inputs.</li>
+            <li><strong>4. Robust AI Monitoring:</strong> Implementing continuous monitoring and auditing of AI systems to detect and respond to suspicious activities.</li>
+            <li><strong>5. Collaboration and Information Sharing:</strong> Engaging in collaboration within the cybersecurity community to share threat intelligence and best practices for emerging threats.</li>
+        </ul>
+    
+        <p>
+            Staying ahead of emerging threats requires a proactive and collaborative approach, with cybersecurity professionals continually adapting their strategies to address the evolving landscape.
+        </p>
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = '../Testing and Assessments/node1.html';
+        }
+    </script>
+
+</body>
+
+</html>

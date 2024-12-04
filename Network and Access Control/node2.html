@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+
+        <nav><h1>Identity and Access Management (IAM) Basics</h1></nav>
+
+    <p>
+        Identity and Access Management (IAM) is a fundamental aspect of cybersecurity that focuses on managing digital identities, controlling access to resources, and ensuring the security of an organization's systems and data.
+    </p>
+
+    <h2>Key Components of IAM</h2>
+    <ul>
+        <li><strong>1. Identity Management:</strong> Involves the creation, maintenance, and deletion of digital identities for individuals, systems, and services within an organization.</li>
+        <li><strong>2. Authentication:</strong> The process of verifying the identity of a user, system, or device. Common authentication methods include passwords, multi-factor authentication (MFA), and biometrics.</li>
+        <li><strong>3. Authorization:</strong> Determines the level of access granted to authenticated users. Authorization is based on roles, permissions, and policies defined by the organization.</li>
+        <li><strong>4. Single Sign-On (SSO):</strong> Allows users to access multiple applications or systems with a single set of login credentials, simplifying the user experience and reducing the risk of password fatigue.</li>
+        <li><strong>5. Lifecycle Management:</strong> Involves managing the entire lifecycle of a user account, including creation, modification, suspension, and deletion, based on changes in roles or employment status.</li>
+    </ul>
+
+    <h2>Benefits of IAM</h2>
+    <ul>
+        <li>Enhanced Security: IAM helps prevent unauthorized access to systems and sensitive data, reducing the risk of data breaches.</li>
+        <li>Improved Compliance: IAM solutions assist organizations in meeting regulatory requirements by enforcing access controls and maintaining audit trails.</li>
+        <li>Increased Efficiency: Automation of user provisioning and de-provisioning processes streamlines administrative tasks and ensures timely access management.</li>
+        <li>User Productivity: SSO and streamlined access processes contribute to a better user experience, reducing the burden on users to remember multiple sets of credentials.</li>
+        <li>Centralized Management: IAM provides a centralized view and control over user identities and access across an organization's IT environment.</li>
+    </ul>
+
+    <h2>Challenges and Best Practices</h2>
+    <p>
+        While IAM offers numerous benefits, organizations may face challenges such as maintaining a balance between security and user convenience, addressing the risk of insider threats, and keeping up with the evolving threat landscape. Best practices include regular access reviews, strong authentication measures, and ongoing user education.
+    </p>
+
+    <p>
+        In summary, IAM is a crucial element of cybersecurity that ensures the right individuals have the right access to the right resources at the right time, contributing to a secure and well-managed IT environment.
+    </p>
+    
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node3.html';
+        }
+    </script>
+
+</body>
+
+</html>

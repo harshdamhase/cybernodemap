@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+:root {
+    --background-dark: #1c1c24;
+    --background-light: #e1ebfb;
+    --text-light: #FAFAFA;
+    --text-dark: #252525;
+    --transition-speed: 0.6s;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    text-anchor: middle;
+    background-color: var(--background-dark);
+    fill: var(--text-light);
+    color: var(--text-light);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+
+body.dark-mode {
+    background-color: var(--background-light);
+    fill: var(--text-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode-transition {
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+svg {
+    display: block;
+}
+
+circle {
+    fill: #444;
+    stroke: #333;
+    stroke-width: 2px;
+    cursor: pointer;
+    transition: stroke 0.3s ease;
+}
+
+circle:hover {
+    stroke: #00ffcc;
+}
+
+line {
+    stroke: #555;
+    stroke-width: 2px;
+}
+
+
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.toolbar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    
+    
+}
+
+

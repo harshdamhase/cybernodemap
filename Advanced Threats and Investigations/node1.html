@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>Advanced Persistent Threats (APTs)</h1>
+        </nav>
+
+        <p>
+            Advanced Persistent Threats (APTs) are sophisticated and targeted cyber attacks designed to gain unauthorized access to a system or network, with the intention of remaining undetected for an extended period. APTs are typically orchestrated by well-funded and highly skilled threat actors, often with specific goals such as espionage, data theft, or sabotage.
+        </p>
+    
+        <h2>Characteristics of APTs</h2>
+        <ul>
+            <li><strong>1. Long-Term Focus:</strong> APTs are not opportunistic; they involve a prolonged and deliberate effort to compromise a target.</li>
+            <li><strong>2. Advanced Techniques:</strong> APTs often employ advanced and sophisticated techniques, including zero-day exploits, custom malware, and social engineering.</li>
+            <li><strong>3. Targeted Attacks:</strong> APTs specifically target organizations or individuals of interest, tailoring their tactics to the characteristics of the target.</li>
+            <li><strong>4. Persistence:</strong> APTs aim to maintain long-term access to the compromised systems, avoiding detection and adapting to security measures.</li>
+            <li><strong>5. Stealth:</strong> APT actors focus on remaining undetected, utilizing encryption, anti-forensic techniques, and other evasion methods.</li>
+        </ul>
+    
+        <h2>Stages of an APT Attack</h2>
+        <p>
+            A typical APT attack involves several stages:
+        </p>
+        <ol>
+            <li><strong>1. Reconnaissance:</strong> Gathering information about the target, including vulnerabilities, personnel, and system architecture.</li>
+            <li><strong>2. Initial Compromise:</strong> Gaining access to the target's network through various means, such as phishing, exploiting vulnerabilities, or using stolen credentials.</li>
+            <li><strong>3. Establishing Foothold:</strong> Creating a persistent presence in the network, often by installing backdoors or using compromised accounts.</li>
+            <li><strong>4. Lateral Movement:</strong> Moving laterally within the network to explore and compromise additional systems and gather valuable information.</li>
+            <li><strong>5. Data Exfiltration:</strong> Stealing sensitive data from the target's network without detection.</li>
+            <li><strong>6. Covering Tracks:</strong> Erasing traces of the attack to avoid detection and maintain long-term access.</li>
+        </ol>
+    
+        <h2>Defense Against APTs</h2>
+        <p>
+            Defending against APTs requires a comprehensive and proactive approach:
+        </p>
+        <ul>
+            <li><strong>1. Cyber Hygiene:</strong> Maintain strong security practices, including regular software updates, patch management, and employee training on security awareness.</li>
+            <li><strong>2. Network Segmentation:</strong> Implement network segmentation to limit lateral movement within the network.</li>
+            <li><strong>3. Intrusion Detection and Prevention:</strong> Use advanced security tools for real-time detection and prevention of APT activities.</li>
+            <li><strong>4. Incident Response:</strong> Develop and regularly test an incident response plan to quickly and effectively respond to APT incidents.</li>
+            <li><strong>5. Threat Intelligence:</strong> Stay informed about the latest APT tactics, techniques, and procedures (TTPs) to enhance threat detection and response capabilities.</li>
+        </ul>
+    
+        <p>
+            APTs represent a significant cybersecurity challenge, and organizations must remain vigilant, continuously improve their security measures, and collaborate with the broader cybersecurity community to mitigate the risk of APT attacks.
+        </p>
+    
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node2.html';
+        }
+    </script>
+
+</body>
+
+</html>

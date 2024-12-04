@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>Digital Forensics</h1>
+        </nav>
+
+        <p>
+            Digital forensics is a branch of cybersecurity that involves the investigation, analysis, and recovery of digital evidence to support legal proceedings or answer investigative questions. It encompasses the systematic examination of electronic devices, networks, and digital data to uncover and analyze incidents such as cybercrime, data breaches, and other digital security incidents.
+        </p>
+    
+        <h2>Key Components of Digital Forensics</h2>
+        <ul>
+            <li><strong>1. Evidence Collection:</strong> Gathering digital evidence from various sources, including computers, mobile devices, storage media, and network logs.</li>
+            <li><strong>2. Preservation:</strong> Ensuring the integrity and preservation of collected evidence to maintain its admissibility in legal proceedings.</li>
+            <li><strong>3. Analysis:</strong> Examining and interpreting digital evidence to reconstruct events, identify patterns, and understand the impact of security incidents.</li>
+            <li><strong>4. Reporting:</strong> Documenting findings and presenting them in a clear and concise manner, often as part of legal or incident response documentation.</li>
+            <li><strong>5. Testifying:</strong> Providing expert testimony in legal proceedings based on the analysis and findings of the digital forensic investigation.</li>
+        </ul>
+    
+        <h2>Types of Digital Forensics</h2>
+        <p>
+            Digital forensics can be categorized into various types based on the focus of the investigation:
+        </p>
+        <ul>
+            <li><strong>1. Computer Forensics:</strong> Investigating digital evidence on computers and computing devices to uncover details about cybercrimes or unauthorized activities.</li>
+            <li><strong>2. Mobile Device Forensics:</strong> Analyzing data on mobile devices such as smartphones and tablets to uncover evidence related to criminal or malicious activities.</li>
+            <li><strong>3. Network Forensics:</strong> Examining network traffic and logs to identify and analyze security incidents, such as unauthorized access or data breaches.</li>
+            <li><strong>4. Memory Forensics:</strong> Analyzing the volatile memory of a computer system to identify and extract information that may not be stored on disk.</li>
+            <li><strong>5. Incident Response Forensics:</strong> Investigating security incidents and breaches to understand the scope, impact, and methods used by attackers.</li>
+        </ul>
+    
+        <h2>Tools and Techniques</h2>
+        <p>
+            Digital forensics professionals use a variety of tools and techniques to conduct investigations, including:
+        </p>
+        <ul>
+            <li><strong>1. Disk Imaging Tools:</strong> Creating forensic copies (images) of storage media without altering the original data.</li>
+            <li><strong>2. Forensic Analysis Software:</strong> Tools for analyzing and extracting information from digital evidence, such as file recovery, keyword searching, and timeline analysis tools.</li>
+            <li><strong>3. Network Analysis Tools:</strong> Software for capturing, analyzing, and interpreting network traffic to identify security incidents.</li>
+            <li><strong>4. Volatility Framework:</strong> A framework for memory forensics, allowing the analysis of volatile memory in a computer system.</li>
+            <li><strong>5. Chain of Custody Documentation:</strong> Maintaining a clear and documented chain of custody to ensure the integrity and admissibility of digital evidence in legal proceedings.</li>
+        </ul>
+    
+        <p>
+            Digital forensics plays a crucial role in cybersecurity and law enforcement, helping to identify and respond to cyber threats, prosecute cybercriminals, and ensure the integrity of digital evidence in legal cases.
+        </p>
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node3.html';
+        }
+    </script>
+
+</body>
+
+</html>

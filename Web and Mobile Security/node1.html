@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>Web Security</h1>
+        </nav>
+
+    <p>
+        Web security is a critical aspect of cybersecurity that focuses on protecting websites, web applications, and web services from various cyber threats. As the internet continues to play a central role in business and communication, securing web assets is essential for maintaining the confidentiality, integrity, and availability of information.
+    </p>
+
+    <h2>Key Components of Web Security</h2>
+    <ul>
+        <li><strong>1. Encryption:</strong> Implementing secure communication using protocols such as HTTPS to encrypt data transmitted between users and web servers, preventing unauthorized interception.</li>
+        <li><strong>2. Secure Sockets Layer (SSL) / Transport Layer Security (TLS):</strong> Protocols that provide secure communication over a computer network. TLS is the successor to SSL and is commonly used to secure web connections.</li>
+        <li><strong>3. Cross-Site Scripting (XSS) Protection:</strong> Mitigating the risk of injecting malicious scripts into web pages that are viewed by other users, ensuring the security of user input and output.</li>
+        <li><strong>4. Cross-Site Request Forgery (CSRF) Protection:</strong> Preventing attackers from making unauthorized requests on behalf of authenticated users, typically through the use of anti-CSRF tokens.</li>
+        <li><strong>5. SQL Injection Prevention:</strong> Safeguarding against malicious SQL queries by validating and sanitizing user inputs, reducing the risk of unauthorized database access.</li>
+        <li><strong>6. Web Application Firewalls (WAF):</strong> Deploying WAF solutions to monitor, filter, and block malicious HTTP traffic between a web application and the internet.</li>
+        <li><strong>7. Content Security Policy (CSP):</strong> Implementing policies that control the types of content that a browser can load, reducing the risk of code injection attacks.</li>
+        <li><strong>8. Regular Security Audits and Testing:</strong> Conducting routine security audits, vulnerability assessments, and penetration testing to identify and address potential weaknesses in web systems.</li>
+    </ul>
+
+    <h2>Common Web Security Threats</h2>
+    <p>
+        <strong>1. Malware:</strong> Malicious software that can infect web servers, websites, and user devices, leading to data breaches and other security incidents.
+    </p>
+    <p>
+        <strong>2. Phishing:</strong> Deceptive attempts to trick users into revealing sensitive information, often through fraudulent emails or fake websites.
+    </p>
+    <p>
+        <strong>3. Man-in-the-Middle Attacks:</strong> Interception of communication between two parties, allowing attackers to eavesdrop or alter the information exchanged.
+    </p>
+    <p>
+        <strong>4. Session Hijacking:</strong> Unauthorized access to a user's session or authentication token, often through the interception of session cookies.
+    </p>
+
+    <h2>Importance of Web Security</h2>
+    <p>
+        Web security is crucial for protecting sensitive data, preserving user trust, and preventing the disruption of online services. A robust web security strategy helps organizations comply with regulations, such as the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS).
+    </p>
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node2.html';
+        }
+    </script>
+
+</body>
+
+</html>

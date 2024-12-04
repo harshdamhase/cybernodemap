@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+
+        <nav>
+            <h1>Access Control Policies</h1>
+        </nav>
+
+    <p>
+        Access control policies are a crucial aspect of cybersecurity that define the rules and restrictions governing access to resources within an organization's information systems. These policies play a key role in maintaining the confidentiality, integrity, and availability of sensitive data and systems.
+    </p>
+
+    <h2>Key Components of Access Control Policies</h2>
+    <ul>
+        <li><strong>1. Authentication:</strong> Verifying the identity of users, systems, or entities before granting access to resources. Common authentication methods include passwords, biometrics, and multi-factor authentication (MFA).</li>
+        <li><strong>2. Authorization:</strong> Determining the level of access privileges granted to authenticated users based on their roles, responsibilities, or other attributes. Authorization ensures that users can only access the resources necessary for their job functions.</li>
+        <li><strong>3. Access Control Lists (ACLs):</strong> Lists of permissions attached to an object that specify which users or system processes are granted access and what operations are allowed on given resources.</li>
+        <li><strong>4. Role-Based Access Control (RBAC):</strong> Assigning access permissions to users based on their roles within an organization. This simplifies access management by associating permissions with predefined roles rather than individual users.</li>
+        <li><strong>5. Least Privilege Principle:</strong> Granting users the minimum level of access required to perform their tasks. This principle reduces the risk of unauthorized access and limits the potential impact of security incidents.</li>
+    </ul>
+
+    <h2>Types of Access Control Policies</h2>
+    <p>
+        <strong>1. Mandatory Access Control (MAC):</strong> Enforces access policies based on labels or security clearances. Users or processes cannot override these controls, and access decisions are typically made by a central authority.
+    </p>
+    <p>
+        <strong>2. Discretionary Access Control (DAC):</strong> Allows users to control access to their own resources. Owners of resources can set permissions and decide who can access specific files or data.
+    </p>
+    <p>
+        <strong>3. Role-Based Access Control (RBAC):</strong> Assigns permissions to roles rather than individual users. Users inherit permissions based on their assigned roles, simplifying access management in large organizations.
+    </p>
+
+    <h2>Enforcement and Compliance</h2>
+    <p>
+        Access control policies must be enforced through technical controls such as firewalls, identity and access management (IAM) systems, and encryption. Regular audits and reviews are essential to ensure compliance with policies, identify vulnerabilities, and address any deviations from the established access controls.
+    </p>
+
+    <h2>Importance of Access Control Policies</h2>
+    <p>
+        Access control policies are essential for preventing unauthorized access, protecting sensitive information, and maintaining the overall security of an organization's IT infrastructure. Well-defined access controls contribute to a strong cybersecurity posture and regulatory compliance.
+    </p>
+    
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = '../Web and Mobile Security/node1.html';
+        }
+    </script>
+
+</body>
+
+</html>

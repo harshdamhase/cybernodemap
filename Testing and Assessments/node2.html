@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/mainstyles.css">
+</head>
+
+<body>
+
+    <div class="dark-mode-toggle" id="darkModeToggle" onclick="toggleTheme()"></div>
+    <div class="toolbar">
+        <i class="fa fa-arrow-left fa-lg" onclick="history.back()"></i>
+    </div>
+    <div id="content">
+        <nav>
+            <h1>Penetration Testing Methodology</h1>
+        </nav>
+
+        <p>
+            Penetration Testing involves a systematic and structured approach to identifying and exploiting vulnerabilities in a target system. The process is typically organized into distinct phases, each serving a specific purpose in uncovering potential security weaknesses. Three key phases in the penetration testing methodology are Reconnaissance, Scanning, and Exploitation.
+        </p>
+    
+        <h2>1. Reconnaissance</h2>
+        <p>
+            Reconnaissance, also known as information gathering, is the initial phase where the penetration tester collects data about the target system. This information includes details about the organization, its network architecture, domain names, IP addresses, and other publicly available data. The goal is to gather as much intelligence as possible to aid in subsequent testing phases.
+        </p>
+        <ul>
+            <li><strong>Passive Reconnaissance:</strong> Involves collecting information without directly interacting with the target, such as analyzing publicly available data, WHOIS records, and social media profiles.</li>
+            <li><strong>Active Reconnaissance:</strong> Involves directly interacting with the target, such as network scanning, DNS enumeration, and other methods to gather more detailed information.</li>
+        </ul>
+    
+        <h2>2. Scanning</h2>
+        <p>
+            Scanning is the phase where the penetration tester actively explores the target system for vulnerabilities and weaknesses. This involves identifying live hosts, open ports, and services running on those ports. Scanning tools help in mapping out the network, providing a clearer picture of potential entry points for exploitation.
+        </p>
+        <ul>
+            <li><strong>Port Scanning:</strong> Identifying open ports on target systems, understanding the services running on those ports, and assessing their vulnerability to exploitation.</li>
+            <li><strong>Vulnerability Scanning:</strong> Utilizing automated tools to identify known vulnerabilities in the target's software and configurations.</li>
+            <li><strong>Network Mapping:</strong> Creating a comprehensive map of the target's network architecture, including the relationships between systems and devices.</li>
+        </ul>
+    
+        <h2>3. Exploitation</h2>
+        <p>
+            The Exploitation phase is where the penetration tester actively attempts to exploit identified vulnerabilities to gain unauthorized access or escalate privileges. This phase involves using various hacking techniques, tools, and exploits to simulate a real-world cyber attack. The objective is to demonstrate the potential impact of successful exploitation and highlight areas for remediation.
+        </p>
+        <ul>
+            <li><strong>Exploiting Vulnerabilities:</strong> Leveraging identified vulnerabilities to gain access to systems, networks, or applications.</li>
+            <li><strong>Privilege Escalation:</strong> Attempting to escalate privileges to gain higher levels of access within the target environment.</li>
+            <li><strong>Pivoting:</strong> Using compromised systems as a base to explore and compromise other systems within the network.</li>
+            <li><strong>Data Exfiltration:</strong> Demonstrating the potential for unauthorized access to sensitive data and information.</li>
+        </ul>
+    
+        <p>
+            The penetration testing methodology is a dynamic and iterative process, with findings from each phase informing subsequent steps. The goal is to provide organizations with a comprehensive understanding of their security posture and actionable recommendations for improving their defenses.
+        </p>
+    
+    
+        <button onclick="redirectToNode()">Next</button>
+    </div>
+
+    <script src="../js/theme.js"></script>
+
+    <script>
+        function redirectToNode() {
+            window.location.href = 'node3.html';
+        }
+    </script>
+
+</body>
+
+</html>
